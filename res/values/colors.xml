@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    
+    <!-- 底部背景色 -->
+    <color name="base_background">#FF2B2B2B</color>
+
+    <!-- 分组背景色 -->
+    <color name="group_background">#FF1E1E1E</color>
+
+    <!-- 通用红色, 整个应用的设计，只有一种红色 -->
+    <color name="general_red">#FFE70012</color>
+
+    <!-- 标题用接近纯白 -->
+    <color name="text_color_white">#FFFEFEFE</color>
+
+    <!-- 内容用半灰 -->
+    <color name="text_color_gray">#FF656565</color>
+
+</resources>

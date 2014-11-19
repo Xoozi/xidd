@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drama>
+    <id>2</id>
+    <name>星光里的朱丽叶</name>
+    <img>d_02.jpg</img>
+    <cast>
+        <line>演出地点:</line>
+        <line>国泰艺术中心剧院</line>
+        <line>演出单位:</line>
+        <line>四川外国语大学博艺莎剧社</line>
+        <line>编剧:曾  立</line>
+        <line>导演:李  霜</line>
+        <line>主演:</line>
+        <line>陈俊杰--陈俊杰 饰</line>
+        <line>赵宇坤--郭  放 饰</line>
+        <line>郭老师--郭姝琪 饰</line>
+        <line>姜天野--姜天野 饰</line>
+        <line>梦  姐--金  梦 饰</line>
+        <line>小  虹--潘远虹 饰</line>
+        <line>彭沛然--石灵珺 饰</line>
+        <line>李亚男--温慧越 饰</line>
+        <line>婷  婷--熊金霞 饰</line>
+        <line>姚  远--姚  远 饰</line>
+    </cast>
+    <date>11月25日 19:30</date>
+    <price>20(学生)/30/50/80/120</price>
+    <des>内容缺失内容缺失内容缺失内容缺失内容缺失内容缺失内容缺失内容缺失内容缺失内容缺失内容缺失内容缺失内容缺失</des>
+    <group>
+        <name>四川外国语大学博艺莎剧社</name>
+        <img>g_02.jpg</img>
+        <des>四川外国语大学博艺莎剧社四川外国语大学博艺莎剧社四川外国语大学博艺莎剧社四川外国语大学博艺莎剧社</des>
+        <staffs>
+
+            <staff>
+                <name>陈俊杰</name>
+                <img>s_05.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>郭放</name>
+                <img>s_06.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>郭姝琪</name>
+                <img>s_07.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>姜天野</name>
+                <img>s_08.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>金梦</name>
+                <img>s_09.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>潘远虹</name>
+                <img>s_10.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>石灵珺</name>
+                <img>s_11.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>温惠越</name>
+                <img>s_12.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>熊金霞</name>
+                <img>s_13.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>姚远</name>
+                <img>s_14.jpg</img>
+                <des></des>
+            </staff>
+
+        </staffs>
+    </group>
+</drama>

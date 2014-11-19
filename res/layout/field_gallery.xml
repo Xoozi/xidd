@@ -1,0 +1,16 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:layout_marginTop="@dimen/margin_group"
+    android:layout_marginBottom="@dimen/margin_group"
+    android:background="@color/group_background">
+    <Gallery
+        android:id="@+id/gallery_drama"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:spacing="10dp"
+        android:background="@color/transparent"/>
+</LinearLayout>

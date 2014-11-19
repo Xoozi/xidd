@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drama>
+    <id>9</id>
+    <name>艺术</name>
+    <img>d_09.jpg</img>
+    <cast>
+        <line>演出地点:</line>
+        <line>国泰艺术中心音乐厅</line>
+        <line>表演单位:</line>
+        <line>午寅表演工作坊</line>
+        <line>编剧:雅丝米娜`雷扎</line>
+        <line>导演:赵虎</line>
+        <line>主演:</line>
+        <line>赵利群--赵晓峰 饰</line>
+        <line>李智杰--李成龙 饰</line>
+        <line>郭红梅--郭与行 饰</line>
+    </cast>
+    <date>12月7日 19:30</date>
+    <price>20(学生)/30/50/80/120</price>
+    <des>身为牙科医生的老赵，花一百万元买回一幅几近白纸的现代画，被他的朋友老李批评为“臭狗屎”！而被他们请来做评判的小郭则是个折中主义着。于是三人围绕着这幅画展开了争论。</des>
+    <group>
+        <name>午寅表演工作坊</name>
+        <img>g_09.jpg</img>
+        <des></des>
+        <staffs>
+
+            <staff>
+                <name>赵晓峰</name>
+                <img>s_45.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>李成龙</name>
+                <img>s_46.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>郭与行</name>
+                <img>s_47.jpg</img>
+                <des></des>
+            </staff>
+
+        </staffs>
+    </group>
+</drama>

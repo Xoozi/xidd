@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drama>
+    <id>1</id>
+    <name>毕业季</name>
+    <img>d_01.jpg</img>
+    <cast>
+        <line>地点:</line>
+        <line>国泰艺术中心剧院</line>
+        <line>演出单位:</line>
+        <line>重庆人文科技学院</line>
+        <line>编剧:鄢光宗、吴喜梅</line>
+        <line>导演:张  鹏</line>
+        <line>主演:</line>
+        <line>赵  健--尹  帅 饰</line>
+        <line>马多多--汤  阳 饰</line>
+        <line>刘恩孝--刘宇枫 饰</line>
+        <line>王小花--张泽平 饰</line>
+    </cast>
+    <date>11月24日 19:30</date>
+    <price>20(学生)/30/50/80/120</price>
+    <des>  大学毕业前后，每位学子都必须面对一是撰写毕业论文的压力甚大的“最后学习时光”；二是跨进复杂社会的实习...</des>
+    <group>
+        <name>重庆人文科技学院</name>
+        <img>g_01.jpg</img>
+        <des>重庆人文科技学院，系原西南大学育才学院，建立于2000年5月。</des>
+        <staffs>
+            <staff>
+                <name>尹帅</name>
+                <img>s_01.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>汤阳</name>
+                <img>s_02.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>刘宇枫</name>
+                <img>s_03.jpg</img>
+                <des></des>
+            </staff>
+            
+            <staff>
+                <name>张泽平</name>
+                <img>s_04.jpg</img>
+                <des></des>
+            </staff>
+        </staffs>
+    </group>
+</drama>

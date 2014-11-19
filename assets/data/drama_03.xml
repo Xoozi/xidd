@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drama>
+    <id>3</id>
+    <name>70 80</name>
+    <img>d_03.jpg</img>
+    <cast>
+        <line>演出地点:</line>
+        <line>国泰艺术中心剧院</line>
+        <line>演出单位:</line>
+        <line>塔利文化传播有限公司</line>
+        <line>303话剧社</line>
+        <line>编剧:徐涵、袁野</line>
+        <line>导演:袁野</line>
+        <line>主演:</line>
+        <line>李  晨--荣  浩 饰</line>
+        <line>叶  秋--卫  蔚 饰</line>
+        <line>张海文--田  雨 饰</line>
+        <line>杨旭阳--蒋文妮 饰</line>
+        <line>老  板--李敬全 饰</line>
+    </cast>
+    <date>12月26日 19:30</date>
+    <price>20(学生)/30/50/80/120</price>
+    <des>  叶秋是个美貌与智慧的女强人。宅男李晨是个典型的“经济适用男”。一次“精心安排”的租房，让两人开始同居生活......</des>
+    <group>
+        <name>303话剧社</name>
+        <img>g_03.jpg</img>
+        <des></des>
+        <staffs>
+
+            <staff>
+                <name>荣浩</name>
+                <img>s_15.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>卫蔚</name>
+                <img>s_16.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>田雨</name>
+                <img>s_17.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>蒋文妮</name>
+                <img>s_18.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>李敬全</name>
+                <img>s_19.jpg</img>
+                <des></des>
+            </staff>
+
+        </staffs>
+    </group>
+</drama>

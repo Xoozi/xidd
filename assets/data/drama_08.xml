@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drama>
+    <id>8</id>
+    <name>住在隔壁的董小姐</name>
+    <img>d_08.jpg</img>
+    <cast>
+        <line>演出地点:</line>
+        <line>国泰艺术中心音乐厅</line>
+        <line>表演单位:</line>
+        <line>戏梦汇舞台剧工作室</line>
+        <line>编剧:李月</line>
+        <line>导演:谢莹</line>
+        <line>主演:</line>
+        <line>董燕茹--陈  希 饰</line>
+        <line>温  喆--王  峰 饰</line>
+        <line>小马哥--黄  杰 饰</line>
+        <line>胡小虎--张  帆 饰</line>
+        <line>鱼  儿--蒋晓晨 饰</line>
+    </cast>
+    <date>12月4日 19:30</date>
+    <price>20(学生)/30/50/80/120</price>
+    <des>在一栋公寓楼的出租屋里，热爱生活的盲人歌手的隔壁住着一个追梦女孩。在古怪刁难的房东眼皮地下，两个年轻人不期而遇。</des>
+    <group>
+        <name>戏梦汇舞台剧工作室</name>
+        <img>g_08.jpg</img>
+        <des></des>
+        <staffs>
+
+            <staff>
+                <name>陈希</name>
+                <img>s_40.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>王峰</name>
+                <img>s_41.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>黄杰</name>
+                <img>s_42.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>张帆</name>
+                <img>s_43.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>蒋晓晨</name>
+                <img>s_44.jpg</img>
+                <des></des>
+            </staff>
+
+        </staffs>
+    </group>
+</drama>

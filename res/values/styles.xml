@@ -1,0 +1,30 @@
+<resources>
+	<style name="font_white_base">
+        <item name="android:textColor">@color/text_color_white</item>
+    </style>
+    
+	<style name="font_gray_base">
+        <item name="android:textColor">@color/text_color_gray</item>
+    </style>
+    
+	<style name="font_main_title" parent="font_white_base">
+        <item name="android:textSize">@dimen/text_main_title</item>
+	    <item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="font_group_title" parent="font_white_base">
+        <item name="android:textSize">@dimen/text_group_title</item>
+	</style>
+
+	<style name="font_white_content" parent="font_white_base">
+        <item name="android:textSize">@dimen/text_content</item>
+	</style>
+
+	<style name="font_gray_content" parent="font_gray_base">
+        <item name="android:textSize">@dimen/text_content</item>
+	</style>
+
+	<style name="font_white_sub_content" parent="font_white_base">
+        <item name="android:textSize">@dimen/text_sub_content</item>
+	</style>
+</resources>

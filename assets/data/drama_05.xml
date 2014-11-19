@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drama>
+    <id>5</id>
+    <name>声息2.0</name>
+    <img>d_05.jpg</img>
+    <cast>
+        <line>演出地点:</line>
+        <line>国泰艺术中心剧院</line>
+        <line>表演单位:</line>
+        <line>重庆寅子剧场</line>
+        <line>编剧:张侃侃</line>
+        <line>导演:米乐、文明</line>
+        <line>主演:</line>
+        <line>米乐</line>
+        <line>文明</line>
+    </cast>
+    <date>12月1日 19:30</date>
+    <price>20(学生)/30/50/80/120</price>
+    <des>  似乎是一对恋人之间的交流......肢体的缠绕、单簧管的倾诉、黑字白纸的裹夹、简短急促的对白、保鲜膜对人的束缚，这一系列的表演表达了什么内容</des>
+    <group>
+        <name>重庆寅子剧场</name>
+        <img>g_05.jpg</img>
+        <des></des>
+        <staffs>
+
+            <staff>
+                <name>米乐</name>
+                <img>s_25.jpg</img>
+                <des></des>
+            </staff>
+            
+            <staff>
+                <name>文明</name>
+                <img>s_26.jpg</img>
+                <des></des>
+            </staff>
+
+        </staffs>
+    </group>
+</drama>

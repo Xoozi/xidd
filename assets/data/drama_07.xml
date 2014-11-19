@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drama>
+    <id>7</id>
+    <name>青春之歌</name>
+    <img>d_07.jpg</img>
+    <cast>
+        <line>演出地点:</line>
+        <line>国泰艺术中心剧院</line>
+        <line>表演单位:</line>
+        <line>重庆师范大学学生艺术团</line>
+        <line>编剧、导演:徐赤</line>
+        <line>主演:</line>
+        <line>林道静--唐浩源 饰</line>
+        <line>卢嘉川--张润发 饰</line>
+        <line>余永泽--陈忠国 饰</line>
+        <line>郑  瑾--赵  倩 饰</line>
+        <line>王晓燕--周慧敏 饰</line>
+        <line>白莉苹--冯诗雨 饰</line>
+    </cast>
+    <date>12月3日 19:30</date>
+    <price>20(学生)/30/50/80/120</price>
+    <des>  该剧根据杨沫同名长篇小说改编。青年学生林道静为了寻找个人出路，离家出逃做了乡村教师。校长余敬唐阴谋把她嫁给当地的权贵......</des>
+    <group>
+        <name>重庆师范大学学生艺术团</name>
+        <img>g_07.jpg</img>
+        <des></des>
+        <staffs>
+
+            <staff>
+                <name>唐浩源</name>
+                <img>s_34.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>张润发</name>
+                <img>s_35.jpg</img>
+                <des></des>
+            </staff>
+            
+            <staff>
+                <name>陈忠国</name>
+                <img>s_36.jpg</img>
+                <des></des>
+            </staff>
+            
+            <staff>
+                <name>赵倩</name>
+                <img>s_37.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>周慧敏</name>
+                <img>s_38.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>冯诗雨</name>
+                <img>s_39.jpg</img>
+                <des></des>
+            </staff>
+
+        </staffs>
+    </group>
+</drama>

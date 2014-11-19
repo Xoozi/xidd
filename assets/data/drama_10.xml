@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drama>
+    <id>10</id>
+    <name>不完美谋杀</name>
+    <img>d_10.jpg</img>
+    <cast>
+        <line>演出地点:</line>
+        <line>国泰艺术中心音乐厅</line>
+        <line>表演单位:</line>
+        <line>塔利文化传播有限公司</line>
+        <line>303话剧社</line>
+        <line>编剧:王蒙、冉静月</line>
+        <line>导演:袁野</line>
+        <line>主演:</line>
+        <line>霍  夫--荣  浩 饰</line>
+        <line>洛韵竹--尉馨予 饰</line>
+        <line>卓  奇--李敬全 饰</line>
+    </cast>
+    <date>12月8日 19:30</date>
+    <price>20(学生)/30/50/80/120</price>
+    <des>身为牙科医生的老赵，花一百万元买回一幅几近白纸的现代画，被他的朋友老李批评为“臭狗屎”！而被他们请来做评判的小郭则是个折中主义着。于是三人围绕着这幅画展开了争论。</des>
+    <group>
+        <name>303话剧社</name>
+        <img>g_10.jpg</img>
+        <des></des>
+        <staffs>
+
+            <staff>
+                <name>荣浩</name>
+                <img>s_48.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>尉馨予</name>
+                <img>s_49.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>李敬全</name>
+                <img>s_50.jpg</img>
+                <des></des>
+            </staff>
+
+        </staffs>
+    </group>
+</drama>

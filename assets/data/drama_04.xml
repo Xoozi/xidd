@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drama>
+    <id>4</id>
+    <name>梦想进行时</name>
+    <img>d_04.jpg</img>
+    <cast>
+        <line>演出地点:</line>
+        <line>国泰艺术中心剧院</line>
+        <line>演出单位:</line>
+        <line>重庆大学美视电影学院</line>
+        <line>午寅表演工作坊</line>
+        <line>编剧、导演:赵虎</line>
+        <line>主演:</line>
+        <line>孟  想--邵守帅 饰</line>
+        <line>华多多--李  延 饰</line>
+        <line>全  泉--唐云荻 饰</line>
+        <line>周  游--赵  桓 饰</line>
+        <line>韩小月--张  黎 饰</line>
+    </cast>
+    <date>11月30日 19:30</date>
+    <price>20(学生)/30/50/80/120</price>
+    <des>  一个面临毕业的大学生沉溺在网络游戏中以此逃避现实生活中的迷茫。毕业之期，能找到什么样的职业？女友提出分手等等问题困扰着他。</des>
+    <group>
+        <id>4</id>
+        <name>午寅表演工作坊</name>
+        <img>g_04.jpg</img>
+        <des></des>
+        <staffs>
+
+            <staff>
+                <name>邵守帅</name>
+                <img>s_20.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>李延</name>
+                <img>s_21.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>唐云荻</name>
+                <img>s_22.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>赵桓</name>
+                <img>s_23.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>张黎</name>
+                <img>s_24.jpg</img>
+                <des></des>
+            </staff>
+
+        </staffs>
+    </group>
+</drama>

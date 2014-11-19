@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drama>
+    <id>11</id>
+    <name>脚要跟心走</name>
+    <img>d_11.jpg</img>
+    <cast>
+        <line>演出地点:</line>
+        <line>国泰艺术中心音乐厅</line>
+        <line>表演单位:</line>
+        <line>重庆师范大学传媒学院方舟剧社</line>
+        <line>编剧、导演:丁松</line>
+        <line>主演:</line>
+        <line>汤  佳--徐  静 饰</line>
+        <line>安  东--张天智 饰</line>
+        <line>宋  乔--邢  璐 饰</line>
+        <line>苏  文--刘庆浩 饰</line>
+    </cast>
+    <date>12月9日 19:30</date>
+    <price>20(学生)/30/50/80/120</price>
+    <des>  已婚的汤佳和安东一见钟情。汤佳的爱人苏文与安东的妻子宋乔面临他俩的婚外情，虽有失落但并不呼天抢地的绝望。</des>
+    <group>
+        <name>重庆师范大学传媒学院方舟剧社</name>
+        <img>g_11.jpg</img>
+        <des></des>
+        <staffs>
+
+
+            <staff>
+                <name>徐静</name>
+                <img>s_51.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>张天智</name>
+                <img>s_52.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>邢璐</name>
+                <img>s_53.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>刘庆浩</name>
+                <img>s_54.jpg</img>
+                <des></des>
+            </staff>
+
+        </staffs>
+    </group>
+</drama>

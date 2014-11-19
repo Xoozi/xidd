@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dramas>
+    <drama id="1" name="毕业季" data="drama_01.xml"/>
+    <drama id="2" name="星光里的朱丽叶" data="drama_02.xml"/>
+    <drama id="3" name="70 80" data="drama_03.xml"/>
+    <drama id="4" name="梦想进行时" data="drama_04.xml"/>
+    <drama id="5" name="声息2.0" data="drama_05.xml"/>
+    <drama id="6" name="大刺客"  data="drama_06.xml"/>
+    <drama id="7" name="青春之歌" data="drama_07.xml"/>
+    <drama id="8" name="住在隔壁的董小姐" data="drama_08.xml"/>
+    <drama id="9" name="艺术" data="drama_09.xml"/>
+    <drama id="10" name="不完美谋杀" data="drama_10.xml"/>
+    <drama id="11" name="脚要跟心走" data="drama_11.xml"/>
+</dramas>

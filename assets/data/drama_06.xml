@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drama>
+    <id>6</id>
+    <name>大刺客</name>
+    <img>d_06.jpg</img>
+    <cast>
+        <line>演出地点:</line>
+        <line>国泰艺术中心剧院</line>
+        <line>表演单位:</line>
+        <line>重庆市话剧团</line>
+        <line>编剧:陈国亮</line>
+        <line>导演:郝鹏寿</line>
+        <line>主演:</line>
+        <line>要  离--刘  华 饰</line>
+        <line>庆  忌--梁东华 饰</line>
+        <line>椒邱欣--黄  河 饰</line>
+        <line>允  兰--吴  莎 饰</line>
+        <line>要离夫人--王  戈 饰</line>
+        <line>阖  闾--徐  清 饰</line>
+        <line>伍子胥--刘  多 饰</line>
+    </cast>
+    <date>12月2日 19:30</date>
+    <price>20(学生)/30/50/80/120</price>
+    <des>  春秋时期，吴国王僚残暴不仁，阖闾刺杀王僚推翻暴政。王僚之子庆忌逃往卫国，意欲复仇。吴国侠士要离应阖闾之招来到卫国，寻机刺杀庆忌。</des>
+    <group>
+        <name>重庆市话剧团</name>
+        <img>g_06.jpg</img>
+        <des></des>
+        <staffs>
+
+            <staff>
+                <name>刘华</name>
+                <img>s_27.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>梁东华</name>
+                <img>s_28.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>黄河</name>
+                <img>s_29.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>吴莎</name>
+                <img>s_30.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>王戈</name>
+                <img>s_31.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>徐清</name>
+                <img>s_32.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>刘多</name>
+                <img>s_33.jpg</img>
+                <des></des>
+            </staff>
+
+        </staffs>
+    </group>
+</drama>
