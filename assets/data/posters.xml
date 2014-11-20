@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <posters>
-    <poster id="1" img="p_01.jpg"/>
-    <poster id="2" img="p_02.jpg"/>
     <poster id="3" img="p_03.jpg"/>
+    <poster id="4" img="p_04.jpg"/>
+    <poster id="999" img="p_999.jpg"/>
 </posters>

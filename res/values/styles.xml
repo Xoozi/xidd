@@ -6,10 +6,13 @@
 	<style name="font_gray_base">
         <item name="android:textColor">@color/text_color_gray</item>
     </style>
+
+	<style name="font_red_base">
+        <item name="android:textColor">@color/general_red</item>
+    </style>
     
 	<style name="font_main_title" parent="font_white_base">
         <item name="android:textSize">@dimen/text_main_title</item>
-	    <item name="android:textStyle">bold</item>
 	</style>
 
 	<style name="font_group_title" parent="font_white_base">
@@ -20,6 +23,15 @@
         <item name="android:textSize">@dimen/text_content</item>
 	</style>
 
+
+	<style name="font_red_title" parent="font_red_base">
+        <item name="android:textSize">@dimen/text_main_title</item>
+	</style>
+    
+	<style name="font_gray_title" parent="font_gray_base">
+        <item name="android:textSize">@dimen/text_main_title</item>
+	</style>
+
 	<style name="font_gray_content" parent="font_gray_base">
         <item name="android:textSize">@dimen/text_content</item>
 	</style>
@@ -27,4 +39,48 @@
 	<style name="font_white_sub_content" parent="font_white_base">
         <item name="android:textSize">@dimen/text_sub_content</item>
 	</style>
+    
+	<style name="font_date_content" parent="font_white_sub_content">
+        <item name="android:background">@color/group_background</item>
+	</style>
+
+	<style name="font_red_btn" parent="font_red_base">
+        <item name="android:textSize">@dimen/text_group_title</item>
+	</style>
+
+	<style name="font_white_btn" parent="font_white_base">
+        <item name="android:textSize">@dimen/text_group_title</item>
+        <item name="android:padding">10dp</item>
+	</style>
+
+	<style name="font_red_content" parent="font_red_base">
+        <item name="android:textSize">@dimen/text_content</item>
+	</style>
+
+	<style name="font_mini_white_btn" parent="font_white_base">
+        <item name="android:textSize">@dimen/text_content</item>
+        <item name="android:padding">2dp</item>
+	</style>
+
+
+	<style name="img_btn">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@color/transparent</item>
+	</style>
+
+	<style name="img_mini_btn">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:background">@color/transparent</item>
+	</style>
+
+
+    <style name="font_search_edit">
+        <item name="android:textSize">@dimen/text_main_title</item>
+        <item name="android:textColor">#EE000000</item>
+        <item name="android:background">@drawable/shape_search_edit</item>
+        <item name="android:padding">5dip</item>
+    </style>
+
 </resources>

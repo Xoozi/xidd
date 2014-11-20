@@ -12,6 +12,12 @@
     <!-- 通用红色, 整个应用的设计，只有一种红色 -->
     <color name="general_red">#FFE70012</color>
 
+    <!-- 通用黄色, 整个应用的设计，只有一种黄色 -->
+    <color name="general_yellow">#FFFEF300</color>
+
+    <!-- 通用灰色, 整个应用的设计，只有一种灰色 -->
+    <color name="general_gray">#FFA0A0A0</color>
+
     <!-- 标题用接近纯白 -->
     <color name="text_color_white">#FFFEFEFE</color>
 

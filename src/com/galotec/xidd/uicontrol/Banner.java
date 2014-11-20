@@ -8,7 +8,6 @@ import com.galotec.xidd.R;
 import com.galotec.xidd.datawrap.AssetTool;
 import com.galotec.xidd.datawrap.DOMPoster;
 import com.galotec.xidd.uicontrol.SlideOnePageGallery.GalleryTapListener;
-import com.xoozi.andromeda.utils.Utils;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -30,12 +29,15 @@ public class Banner implements OnItemSelectedListener,
     private GalleryFooter           _galleryFooter;
     private GalleryAdapter          _galleryAdapter;
     private List<GalleryItem>       _galleryItemList;
+    private IOnWidgetInteract       _widgetInteract;
     private int                     _length;    
     private int                     _pos;
     
-    public  Banner(Context context, View rootView){
+    public  Banner(Context context, View rootView, 
+            IOnWidgetInteract widgetInteract){
         _context = context;
         _rootView= rootView;
+        _widgetInteract = widgetInteract;
         
         _gallery = (SlideOnePageGallery) _rootView.findViewById(R.id.gallery_banner);
         
@@ -152,7 +154,7 @@ public class Banner implements OnItemSelectedListener,
     @Override
     public void onGalleryTap() {
         GalleryItem item = _galleryItemList.get(_pos);
-        Utils.amLog("tap------poster-------id:" + item.id);        
+        _widgetInteract.onClickDrama(item.id);
     }
 
 }

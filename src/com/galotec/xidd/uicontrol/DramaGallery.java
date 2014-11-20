@@ -1,19 +1,15 @@
 package com.galotec.xidd.uicontrol;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 import com.galotec.xidd.R;
-import com.galotec.xidd.datawrap.AssetTool;
 import com.galotec.xidd.datawrap.DOMDrama;
-import com.xoozi.andromeda.utils.Utils;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -27,16 +23,19 @@ public class DramaGallery implements OnItemClickListener{
     private Context                 _context;
     private LayoutInflater          _layoutInflater;
     private View                    _rootView;
+    private IOnWidgetInteract       _widgetInteract;
     private Gallery                 _gallery;
     private DramaAdapter            _dramaAdapter;
     private List<DramaItem>         _dramaList;
     private String                  _selectedId = null;
     private View                    _lastView = null;
 
-    public DramaGallery(Context context, View rootView){
+    public DramaGallery(Context context, View rootView,
+            IOnWidgetInteract widgetInteract){
 
         _context = context;
         _rootView= rootView;
+        _widgetInteract = widgetInteract;
         _layoutInflater = LayoutInflater.from(_context);
         
         _gallery = (Gallery)_rootView.findViewById(R.id.gallery_drama);
@@ -55,12 +54,8 @@ public class DramaGallery implements OnItemClickListener{
         for(DOMDrama drama: dramas){
             DramaItem item = new DramaItem();
             item.id = drama.id;
-            try {
-                item.img = AssetTool.getDrawable(_context, drama.img);
-                gItemList.add(item);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            item.img = drama.draw;
+            gItemList.add(item);
         }
         _dramaAdapter.setDramaItemList(gItemList);
         _gallery.setSelection(Integer.MAX_VALUE / 2);
@@ -147,7 +142,7 @@ public class DramaGallery implements OnItemClickListener{
 
         _lastView = view.findViewById(R.id.field_mask);
         _lastView.setVisibility(View.VISIBLE);
-        Utils.amLog("select id:"+_selectedId);
+        _widgetInteract.onClickDrama(_selectedId);
     }
 
 }

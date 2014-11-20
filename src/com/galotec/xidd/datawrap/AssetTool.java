@@ -18,6 +18,7 @@ public class AssetTool{
     public static final String IMG_FOLDER       = "img";
     public static final String DRAMAS_ROOT      = "dramas.xml";
     public static final String POSTERS_ROOT     = "posters.xml";
+    public static final String COLUMN_ROOT      = "columns.xml";
 
     public static DOMXiddData loadConfig(Context context)
         throws IOException, JDOMException {
@@ -30,12 +31,18 @@ public class AssetTool{
 
         InputStream isPosters = am.open(DATA_FOLDER + "/" + POSTERS_ROOT);
         XmlDOM domPosters = new XmlDOM(isPosters);
+
+
+        InputStream isColumns = am.open(DATA_FOLDER + "/" + COLUMN_ROOT);
+        XmlDOM domColumns = new XmlDOM(isColumns);
         
         DOMXiddData ret = new DOMXiddData(context, 
                                 domDramas.getRoot(),
-                                domPosters.getRoot());
+                                domPosters.getRoot(),
+                                domColumns.getRoot());
         isDramas.close();
         isPosters.close();
+        isColumns.close();
 
         return ret;
     }
@@ -50,7 +57,7 @@ public class AssetTool{
         InputStream isConfig = am.open(DATA_FOLDER + "/" + data);
         XmlDOM dom = new XmlDOM(isConfig);                                        
         
-        DOMDrama ret = new DOMDrama(dom.getRoot());
+        DOMDrama ret = new DOMDrama(context, dom.getRoot());
 
         isConfig.close();
 

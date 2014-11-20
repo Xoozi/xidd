@@ -5,16 +5,28 @@
     <string name="title_ticket">票务</string>
     <string name="title_season">演出季</string>
 
-    <string name="menu_oder">订单</string>
+    <string name="menu_order">订单</string>
     <string name="menu_setting">设置</string>
     <string name="menu_exit">退出</string>
 
-    <string name="btn_ticket">票务</string>
+    <string name="btn_ticket">票  务</string>
     <string name="btn_login">登陆</string>
     <string name="btn_newest">最新</string>
     <string name="btn_rank">评分</string>
     <string name="btn_price">价格</string>
+    <string name="btn_book_ticket">订  票</string>
+    <string name="btn_free_ticket">赠  票</string>
+    <string name="btn_order_ticket">预  票</string>
+    <string name="btn_hall">大  厅</string>
 
     <string name="label_username">用户名</string>
     <string name="label_password">密码</string>
+    <string name="label_price">￥:</string>
+    <string name="label_2014">2014年</string>
+
+    <string name="hint_username">请输入手机号码\\邮箱</string>
+    <string name="hint_password">请输入密码</string>
+
+    <string name="drawer_des">剧情简介</string>
+    <string name="drawer_group">团队介绍</string>
 </resources>

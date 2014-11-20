@@ -1,8 +1,7 @@
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="220dp"
-    android:orientation="horizontal"
+    android:layout_height="180dp"
     android:clickable="true"
     android:background="@color/group_background">
     
@@ -14,7 +13,7 @@
     <LinearLayout
         android:id="@+id/field_gallery_footer"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="20dp"
         android:orientation="horizontal"
         android:gravity="center"
         android:layout_gravity="bottom">
