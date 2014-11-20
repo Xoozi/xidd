@@ -1,0 +1,67 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="fill_parent"
+    android:layout_alignParentLeft="true"
+    android:visibility="invisible"
+    android:background="@color/base_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/group_background"
+        android:layout_marginRight="@dimen/margin_group">
+
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_username"
+                style="@style/font_red_btn"/>
+
+            <EditText
+                android:id="@+id/edit_login_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_username"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_password"
+                style="@style/font_red_btn"/>
+
+            <EditText
+                android:id="@+id/edit_login_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_password"/>
+            
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_button"
+                android:text="@string/btn_login"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="1dp"
+                style="@style/font_white_btn"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

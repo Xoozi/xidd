@@ -1,0 +1,84 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="fill_parent"
+    android:layout_alignParentRight="true"
+    android:background="@color/base_background"
+    android:visibility="invisible" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/group_background"
+        android:layout_marginLeft="@dimen/margin_group">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="80dp"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp"
+                android:gravity="center">
+                <ImageButton
+                    android:id="@+id/btn_orer"
+                    android:layout_weight="1"
+                    style="@style/img_btn"
+                    android:src="@drawable/btn_order"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/font_red_content"
+                    android:text="@string/menu_order"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp"
+                android:gravity="center">
+                <ImageButton
+                    android:id="@+id/btn_setting"
+                    android:layout_weight="1"
+                    style="@style/img_btn"
+                    android:src="@drawable/btn_setting"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/font_red_content"
+                    android:text="@string/menu_setting"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp"
+                android:gravity="center">
+                <ImageButton
+                    android:id="@+id/btn_exit"
+                    android:layout_weight="1"
+                    style="@style/img_btn"
+                    android:src="@drawable/btn_exit"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/font_red_content"
+                    android:text="@string/menu_exit"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

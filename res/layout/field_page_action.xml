@@ -1,0 +1,30 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/group_background">
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        style="@style/img_btn"
+        android:src="@drawable/btn_back"/>
+    <ImageButton
+        android:id="@+id/btn_dummy"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        style="@style/img_btn"
+        android:src="@drawable/btn_menu"/>
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="@string/app_name"
+        style="@style/font_main_title"
+        android:layout_toLeftOf="@id/btn_dummy"
+        android:layout_toRightOf="@id/btn_back"/>
+</RelativeLayout>
