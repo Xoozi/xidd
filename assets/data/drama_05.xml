@@ -14,6 +14,7 @@
     <cast>
         <line>编剧:张侃侃</line>
         <line>导演:米乐、文明</line>
+        <line>视觉支持:顾桃</line>
         <line>主演:</line>
         <line>米乐</line>
         <line>文明</line>
@@ -30,12 +31,18 @@
 
             <staff>
                 <name>米乐</name>
-                <img>s_25.jpg</img>
+                <img>s_24.jpg</img>
                 <des></des>
             </staff>
             
             <staff>
                 <name>文明</name>
+                <img>s_25.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>顾桃</name>
                 <img>s_26.jpg</img>
                 <des></des>
             </staff>

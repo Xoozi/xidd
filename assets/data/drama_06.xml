@@ -33,46 +33,29 @@
         <staffs>
 
             <staff>
-                <name>刘华</name>
+                <name>导演:郝鹏寿</name>
                 <img>s_27.jpg</img>
                 <des></des>
             </staff>
 
             <staff>
-                <name>梁东华</name>
+                <name>刘华</name>
                 <img>s_28.jpg</img>
                 <des></des>
             </staff>
 
             <staff>
-                <name>黄河</name>
+                <name>梁东华</name>
                 <img>s_29.jpg</img>
                 <des></des>
             </staff>
 
             <staff>
-                <name>吴莎</name>
+                <name>王戈</name>
                 <img>s_30.jpg</img>
                 <des></des>
             </staff>
 
-            <staff>
-                <name>王戈</name>
-                <img>s_31.jpg</img>
-                <des></des>
-            </staff>
-
-            <staff>
-                <name>徐清</name>
-                <img>s_32.jpg</img>
-                <des></des>
-            </staff>
-
-            <staff>
-                <name>刘多</name>
-                <img>s_33.jpg</img>
-                <des></des>
-            </staff>
 
         </staffs>
     </group>

@@ -15,9 +15,9 @@
         <line>编剧、导演:丁松</line>
         <line>主演:</line>
         <line>汤  佳--徐  静 饰</line>
-        <line>安  东--张天智 饰</line>
-        <line>宋  乔--邢  璐 饰</line>
-        <line>苏  文--刘庆浩 饰</line>
+        <line>安  东--赵  淼 饰</line>
+        <line>宋  乔--刁亚红 饰</line>
+        <line>苏  文--孔军青 饰</line>
     </cast>
     <date>2014年12月9日</date>
     <price>20(学生)/30/50/80/120</price>
@@ -28,29 +28,62 @@
         <des></des>
         <staffs>
 
+            <staff>
+                <name>丁松</name>
+                <img>s_41.jpg</img>
+                <des>
+                    <line>一级编剧，重庆师范大学传媒学院硕士生导师。</line>
+                    <line>主要话剧作品有：</line>
+                    <line>《真情》、《雨夜惊魂》、《桃花满天红》、《啊，东土岭！》《重庆火锅》、《没有功课的八月》、《青春无悔》、《人往高处走》、《大学的江湖》</line>
+                </des>
+            </staff>
 
             <staff>
                 <name>徐静</name>
-                <img>s_51.jpg</img>
-                <des></des>
+                <img>s_42.jpg</img>
+                <des>
+                    <line>重庆师范大学2013级音乐表演专业学生</line>
+                </des>
             </staff>
 
             <staff>
-                <name>张天智</name>
-                <img>s_52.jpg</img>
-                <des></des>
+                <name>赵淼</name>
+                <img>s_43.jpg</img>
+                <des>
+                    <line>毕业于重庆师范大学广播电视编导专业</line>
+                    <line>话剧作品：</line>
+                    <line>《该分手时就分手》、《大学的江湖》、《哈姆莱特》</line>
+                    <line>微电影作品：</line>
+                    <line>《我的女主角老师》</line>
+                    <line>电视剧作品：</line>
+                    <line>《迷道》</line>
+                </des>
             </staff>
 
             <staff>
-                <name>邢璐</name>
-                <img>s_53.jpg</img>
-                <des></des>
+                <name>刁亚红</name>
+                <img>s_44.jpg</img>
+                <des>
+                    <line>重庆师范大学文艺与传媒专业2012级研究生</line>
+                    <line>话剧:</line>
+                    <line>《恋爱的犀牛》、《哈姆莱特》</line>
+                    <line>微电影:</line>
+                    <line>《流光》</line>
+                </des>
             </staff>
 
             <staff>
-                <name>刘庆浩</name>
-                <img>s_54.jpg</img>
-                <des></des>
+                <name>孔军青</name>
+                <img>s_45.jpg</img>
+                <des>
+                    <line>毕业于重庆师范大学广播电视编导专业</line>
+                    <line>话剧:</line>
+                    <line>《从头再来》、《梦断东土岭》、《恋爱的犀牛》、《天边外》</line>
+                    <line>短片:</line>
+                    <line>《妊娠》、《停在那片蓝》、《夜碎》</line>
+                    <line>微电影:</line>
+                    <line>《迷巷 Lost City》、《劁猪女相亲》</line>
+                </des>
             </staff>
 
         </staffs>

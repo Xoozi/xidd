@@ -18,5 +18,5 @@ else
     adb install -r $1
 fi
 
-adb shell am start com.galotec.xidd/.ActivityMain
+adb shell am start com.galotec.xidd/.ActivitySplash
 

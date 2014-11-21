@@ -13,23 +13,22 @@ public class DrawerPanel implements OnClickListener{
     @SuppressWarnings("unused")
     private Context                 _context;
     private View                    _rootView;
-    private View                    _displayArea;
     private ImageButton             _btnSwitch;
     private TextView                _textContent;
     private boolean                 _state;
+    private IOnWidgetInteract       _owi;
 
 
-    public DrawerPanel(Context context, View rootView){
+    public DrawerPanel(Context context, View rootView, IOnWidgetInteract owi){
         _context = context;
         _rootView= rootView;
+        _owi = owi;
 
-        _displayArea = _rootView.findViewById(R.id.field_display_area);
-        _textContent = (TextView)_rootView.findViewById(R.id.text_content);
-        _btnSwitch = (ImageButton)_rootView.findViewById(R.id.btn_drawer_switch);
+        _textContent = (TextView)_rootView.findViewById(R.id.text_des_content);
+        _btnSwitch = (ImageButton)_rootView.findViewById(R.id.btn_des_switch);
 
-        _rootView.findViewById(R.id.field_drawer_click).setOnClickListener(this);
+        _rootView.findViewById(R.id.btn_drawer_des).setOnClickListener(this);
 
-        setDrawerState(false);
     }
 
 
@@ -46,11 +45,15 @@ public class DrawerPanel implements OnClickListener{
         _state = state;
 
         if(_state){
-            _displayArea.setVisibility(View.VISIBLE);
+            _textContent.setVisibility(View.VISIBLE);
             _btnSwitch.setImageResource(R.drawable.btn_fold);
         }else{
-            _displayArea.setVisibility(View.GONE);
+            _textContent.setVisibility(View.GONE);
             _btnSwitch.setImageResource(R.drawable.btn_exp);
+        }
+        
+        if(!_state){
+            _owi.onClickGroupItem(this);
         }
     }
 

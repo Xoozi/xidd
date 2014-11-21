@@ -45,6 +45,9 @@ public class ActivityMain extends Activity
             startActivity(intent);
         }
     }
+    @Override
+    public void onClickGroupItem(Object item) {
+    }
 
     @Override
     public void onClick(View view) {

@@ -30,37 +30,6 @@
         <img>g_03.jpg</img>
         <des></des>
         <staffs>
-
-            <staff>
-                <name>荣浩</name>
-                <img>s_15.jpg</img>
-                <des></des>
-            </staff>
-
-            <staff>
-                <name>卫蔚</name>
-                <img>s_16.jpg</img>
-                <des></des>
-            </staff>
-
-            <staff>
-                <name>田雨</name>
-                <img>s_17.jpg</img>
-                <des></des>
-            </staff>
-
-            <staff>
-                <name>蒋文妮</name>
-                <img>s_18.jpg</img>
-                <des></des>
-            </staff>
-
-            <staff>
-                <name>李敬全</name>
-                <img>s_19.jpg</img>
-                <des></des>
-            </staff>
-
         </staffs>
     </group>
 </drama>

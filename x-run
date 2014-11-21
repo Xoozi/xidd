@@ -2,4 +2,4 @@
 
 #Run the app's special activity, need edit script for yourself
 
-adb shell am start com.galotec.xidd/.ActivityMain
+adb shell am start com.galotec.xidd/.ActivitySplash

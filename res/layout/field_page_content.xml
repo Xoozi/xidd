@@ -112,7 +112,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="2dp"
-                        style="@style/font_gray_content"/>
+                        style="@style/font_white_content"/>
                 </ScrollView>
                 
                 <ImageButton
@@ -133,75 +133,83 @@
 
 
     <!-- 伸缩面板 -->
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:scrollbars="none"
+        android:background="@color/transparent">
 
-        <!--title 和缩放按钮--> 
         <LinearLayout
-            android:id="@+id/field_drawer_des"
+            android:id="@+id/field_drawer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
                     
+            <!--剧情简介缩放按钮区域--> 
             <LinearLayout
-                android:id="@+id/field_drawer_click"
+                android:id="@+id/btn_drawer_des"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:orientation="horizontal"
                 android:clickable="true">
                 <ImageButton
-                    android:id="@+id/btn_drawer_switch"
-                    style="@style/img_btn"
+                    android:id="@+id/btn_des_switch"
+                    style="@style/img_mini_btn"
                     android:clickable="false"
                     android:src="@drawable/btn_exp"/>
 
                 <TextView
-                    android:id="@+id/text_drawer_title"
+                    android:id="@+id/text_des_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/drawer_des"
                     style="@style/font_group_title"/>
             </LinearLayout>
+            <!--剧情简介缩放按钮区域 END--> 
 
-            <ScrollView
-                android:id="@+id/field_display_area"
+            <!--剧情简介文本区域-->
+            <TextView
+                android:id="@+id/text_des_content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:scrollbars="none"
-                android:layout_margin="10dp"
-                android:background="@color/transparent">
-                <TextView
-                    android:id="@+id/text_content"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    style="@style/font_gray_content"/>
-            </ScrollView>
-        </LinearLayout>
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                style="@style/font_white_content"/>
 
-        <!--title 和缩放按钮--> 
-        <LinearLayout
-            android:id="@+id/field_drawer_group"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clickable="true"
-            android:gravity="center_vertical"
-            android:orientation="horizontal">
-                    
-            <ImageButton
-                android:id="@+id/btn_drawer_switch_"
-                style="@style/img_btn"
-                android:src="@drawable/btn_exp"/>
-
-            <TextView
-                android:id="@+id/text_drawer_title_"
-                android:layout_width="wrap_content"
+            <!--团队介绍缩放按钮区域-->
+            <LinearLayout
+                android:id="@+id/btn_drawer_group"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/drawer_group"
-                style="@style/font_group_title"/>
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                        
+                <ImageButton
+                    android:id="@+id/btn_group_switch"
+                    style="@style/img_mini_btn"
+                    android:src="@drawable/btn_exp"/>
+
+                <TextView
+                    android:id="@+id/text_group_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/drawer_group"
+                    style="@style/font_group_title"/>
+            </LinearLayout>
+            <!--团队介绍缩放按钮区域 END-->
+
+            <!--团队介绍仿列表区域-->
+            <LinearLayout
+                android:id="@+id/field_group_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
         </LinearLayout>
-    </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

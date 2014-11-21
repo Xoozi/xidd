@@ -31,34 +31,82 @@
         <staffs>
 
             <staff>
-                <name>陈希</name>
-                <img>s_40.jpg</img>
+                <name>编剧:李月</name>
+                <img>s_31.jpg</img>
                 <des></des>
+            </staff>
+
+            <staff>
+                <name>导演:谢莹</name>
+                <img>s_32.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>陈希</name>
+                <img>s_33.jpg</img>
+                <des>
+                    <line>重庆大学美视电影学院2011级表演专业</line>
+                    <line>  2008年新丝路模特大赛黑龙江赛区最佳上镜奖</line>
+                    <line>  2009年佳木斯第二届杏花节比赛亚军被美誉“杏花仙子”</line>
+                    <line>  2010年黑龙江电视台金话筒比赛铜奖</line>
+                    <line>  2011年电影《音乐江湖》扮演“丁丁”</line>
+                    <line>  2011年参与电影《温故1942》拍摄</line>
+                    <line>  2012年拍摄导演班毕业作品《外卖，贩碟，拍电影》</line>
+                    <line>  2013年拍摄沙坪坝区宣传片《寻找》</line>
+                    <line>  2013拍摄重庆天地宣传片《未完，待续</line>
+                </des>
             </staff>
 
             <staff>
                 <name>王峰</name>
-                <img>s_41.jpg</img>
-                <des></des>
+                <img>s_34.jpg</img>
+                <des>
+                    <line>毕业于：</line>
+                    <line>复旦大学上海视觉艺术学院</line>
+                    <line>出演影视剧：</line>
+                    <line>《精武风云，陈真》饰 文卓</line>
+                    <line>《不再让你孤单》饰 小乐</line>
+                    <line>《百年情书》饰 林尹民</line>
+                    <line>《血滴子》饰 鲁班</line>
+                    <line>《风中奇缘》饰 石慎行</line>
+                    <line>《步步惊情》饰 王浩</line>
+                    <line>出演话剧：</line>
+                    <line>《聂小倩》饰演 燕赤霞</line>
+                </des>
             </staff>
 
             <staff>
                 <name>黄杰</name>
-                <img>s_42.jpg</img>
-                <des></des>
+                <img>s_35.jpg</img>
+                <des>
+                    <line>毕业院校:</line>
+                    <line>重庆大学美视电影学院</line>
+                    <line>单位:</line>
+                    <line>重庆市话剧团</line>
+                    <line>代表作:</line>
+                    <line>话剧:</line>
+                    <line>《幸存者》</line>
+                    <line>《轻度深爱》</line>
+                    <line>《剩女郎》</line>
+                    <line>《临界90分》</line>
+                    <line>电影电视:</line>
+                    <line>《不醉不归》</line>
+                    <line>《磁器口》</line>
+                </des>
             </staff>
 
             <staff>
                 <name>张帆</name>
-                <img>s_43.jpg</img>
-                <des></des>
+                <img>s_36.jpg</img>
+                <des>
+                    <line>毕业院校:</line>
+                    <line>中国传媒大学南广学院</line>
+                    <line>主持节目:</line>
+                    <line>《955资讯早班车》、《955车友生活》《舞动全城》</line>
+                </des>
             </staff>
 
-            <staff>
-                <name>蒋晓晨</name>
-                <img>s_44.jpg</img>
-                <des></des>
-            </staff>
 
         </staffs>
     </group>

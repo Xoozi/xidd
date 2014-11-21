@@ -22,6 +22,10 @@
 	<style name="font_white_content" parent="font_white_base">
         <item name="android:textSize">@dimen/text_content</item>
 	</style>
+    
+	<style name="font_column_content" parent="font_white_base">
+        <item name="android:textSize">@dimen/text_sub_content</item>
+	</style>
 
 
 	<style name="font_red_title" parent="font_red_base">

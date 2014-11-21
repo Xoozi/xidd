@@ -25,30 +25,48 @@
     <des>  图书管理专业学生赵健暗恋中文系学生马多多。马多多和恋人刘思孝同学为写毕业论文等事产生了裂痕。农村姑娘王小花怀着对赵健的情爱之心来到学院附近打工。这几位年青人，情感交错，此消彼长，爱情与友谊几番冲突和交集。主人公赵健面对马多多与王小花的选择，何去何从？赵健最终对这道难题做出了理智的抉择。</des>
     <group>
         <name>重庆人文科技学院</name>
-        <img>g_01.jpg</img>
-        <des>重庆人文科技学院，系原西南大学育才学院，建立于2000年5月。</des>
+        <img></img>
+        <des></des>
         <staffs>
             <staff>
-                <name>尹帅</name>
-                <img>s_01.jpg</img>
+                <name>编剧:鄢光宗</name>
+                <img>s_1.jpg</img>
                 <des></des>
             </staff>
 
             <staff>
-                <name>汤阳</name>
-                <img>s_02.jpg</img>
+                <name>编剧:吴喜梅</name>
+                <img>s_2.jpg</img>
                 <des></des>
             </staff>
 
             <staff>
-                <name>刘宇枫</name>
-                <img>s_03.jpg</img>
+                <name>导演:张鹏</name>
+                <img>s_3.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>男一号:尹帅</name>
+                <img>s_4.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>女一号:汤阳</name>
+                <img>s_5.jpg</img>
+                <des></des>
+            </staff>
+
+            <staff>
+                <name>男二号:刘宇枫</name>
+                <img>s_6.jpg</img>
                 <des></des>
             </staff>
             
             <staff>
-                <name>张泽平</name>
-                <img>s_04.jpg</img>
+                <name>女二号:张泽平</name>
+                <img>s_7.jpg</img>
                 <des></des>
             </staff>
         </staffs>
