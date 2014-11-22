@@ -1,14 +1,14 @@
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+    android:layout_width="320dp"
     android:layout_height="180dp"
     android:clickable="true"
     android:background="@color/group_background">
     
     <com.galotec.xidd.uicontrol.SlideOnePageGallery
         android:id="@+id/gallery_banner"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_width="320dp"
+        android:layout_height="180dp"/>
     
     <LinearLayout
         android:id="@+id/field_gallery_footer"
